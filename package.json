@@ -1,0 +1,11 @@
+{
+  "name": "dht-data-analyzer",
+  "version": "0.0.0",
+  "description": "This node.js script helps analyzing the geographic data of the DHT peers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Suchanek <tim.suchanek@gmail.com>",
+  "license": "MIT"
+}
