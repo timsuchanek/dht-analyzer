@@ -32,8 +32,6 @@ function processData(lines) {
   return information
 }
 
-
-
 function calcAverageValues(information) {
   var average = [];
   /*
@@ -65,7 +63,6 @@ function calcAverageValues(information) {
   return average;
 }
 
-
 var lines = fs.readFileSync('CountryTrendAnalyzer.txt')
 .toString()
 .split('\n');
@@ -75,6 +72,3 @@ var information = processData(lines);
 var average = calcAverageValues(information);
 
 console.log(average);
-
-// console.log(lengthts, lengthts.length);
-// console.log(information[0]);
