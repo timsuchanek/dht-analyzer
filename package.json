@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tim Suchanek <tim.suchanek@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "csv": "^0.4.0"
-  }
+  "license": "MIT"
 }
