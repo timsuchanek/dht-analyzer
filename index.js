@@ -1,8 +1,5 @@
 var fs = require('fs');
-
-var lines = fs.readFileSync('CountryTrendAnalyzer.txt')
-.toString()
-.split('\n');
+var _ = require('lodash');
 
 function processData(lines) {
   var commentRegex = /#+(.*)/;
@@ -35,11 +32,49 @@ function processData(lines) {
   return information
 }
 
+
+
+function calcAverageValues(information) {
+  var average = [];
+  /*
+    [{
+      country: 'AS',
+      value: 123
+    }]
+  */
+  var n = information.length;
+
+  information.forEach(function(info) {
+    info.countries.forEach(function(country) {
+      var exists = _.find(average, function(avg) {
+        return avg.country == country[0];
+      });
+      if (exists) {
+        exists.value += country[1];
+      } else {
+        average.push({
+          country: country[0],
+          value: country[1]
+        });
+      }
+    });
+  });
+  average.forEach(function(avg) {
+    avg.value /= n;
+  });
+  return average;
+}
+
+
+var lines = fs.readFileSync('CountryTrendAnalyzer.txt')
+.toString()
+.split('\n');
+
 var information = processData(lines);
 
-var lengthts = information.map(function(info) {
-  return info.countries.length;
-});
+var average = calcAverageValues(information);
 
-console.log(lengthts, lengthts.length);
+console.log(average);
+
+// console.log(lengthts, lengthts.length);
 // console.log(information[0]);
