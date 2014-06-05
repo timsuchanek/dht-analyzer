@@ -12,15 +12,10 @@ the Karlsruher Institut für Technologie (KIT).
 [Bitcoin Paper Barcelona](http://fc14.ifca.ai/bitcoin/papers/bitcoin14_submission_3.pdf)
 
 ## How to run
-1. ```sh
-  $ git clone https://github.com/timsuchanek/dht-analyzer.git
-  ```
-2. ```sh
-  $ cd dht-analyzer
-  ```
-3. ```sh
-  $ npm install
-  ```
-4. ```sh
-  $ node index.js
-  ```
+
+```sh
+    $ git clone https://github.com/timsuchanek/dht-analyzer.git
+    $ cd dht-analyzer
+    $ npm install
+    $ node index.js
+```
