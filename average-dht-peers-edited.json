@@ -136,7 +136,8 @@
 }, {
     "country": "Portugal",
     "dhtValue": 0.0033373495825906757,
-    "bitcoinBarcelonaValue": 67
+    "bitcoinBarcelonaValue": 67,
+    "bitcoinStatusValue": 67
 }, {
     "country": "Philippines",
     "dhtValue": 0.002924917005990524,
