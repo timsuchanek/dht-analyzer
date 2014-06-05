@@ -1,0 +1,195 @@
+[{
+    "country": "Russia",
+    "dhtValue": 0.1257970209668987,
+    "bitcoinBarcelonaValue": 66705,
+    "bitcoinStatusValue": 964
+}, {
+    "country": "United States",
+    "dhtValue": 0.11080905143554443,
+    "bitcoinBarcelonaValue": 145495,
+    "bitcoinStatusValue": 6540
+}, {
+    "country": "China",
+    "dhtValue": 0.05638393867052427,
+    "bitcoinBarcelonaValue": 172662,
+    "bitcoinStatusValue": 331
+}, {
+    "country": "France",
+    "dhtValue": 0.04439885898008596,
+    "bitcoinBarcelonaValue": 17249,
+    "bitcoinStatusValue": 263
+}, {
+    "country": "United Kingdom",
+    "dhtValue": 0.039054282936880555,
+    "bitcoinBarcelonaValue": 43369,
+    "bitcoinStatusValue": 828
+}, {
+    "country": "Ukraine",
+    "dhtValue": 0.03905368303235273,
+    "bitcoinBarcelonaValue": 13606,
+    "bitcoinStatusValue": 322
+}, {
+    "country": "Canada",
+    "dhtValue": 0.03440776211504844,
+    "bitcoinBarcelonaValue": 23308,
+    "bitcoinStatusValue": 863
+}, {
+    "country": "India",
+    "dhtValue": 0.029030512575586646,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 42
+}, {
+    "country": "South Korea",
+    "dhtValue": 0.02737799234573705,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 0
+}, {
+    "country": "Brazil",
+    "dhtValue": 0.026812948052923946,
+    "bitcoinBarcelonaValue": 16452,
+    "bitcoinStatusValue": 147
+}, {
+    "country": "Australia",
+    "dhtValue": 0.025364353652996722,
+    "bitcoinBarcelonaValue": 15239,
+    "bitcoinStatusValue": 529
+}, {
+    "country": "Sweden",
+    "dhtValue": 0.01797273957464162,
+    "bitcoinBarcelonaValue": 7958,
+    "bitcoinStatusValue": 271
+}, {
+    "country": "Spain",
+    "dhtValue": 0.01755602092290712,
+    "bitcoinBarcelonaValue": 14303,
+    "bitcoinStatusValue": 161
+}, {
+    "country": "Bulgaria",
+    "dhtValue": 0.016466877319621466,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 87
+}, {
+    "country": "Romania",
+    "dhtValue": 0.0164313390616872,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 92
+}, {
+    "country": "Italy",
+    "dhtValue": 0.016222713454536644,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 179
+}, {
+    "country": "Hungary",
+    "dhtValue": 0.01377269319046022,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 36
+}, {
+    "country": "Japan",
+    "dhtValue": 0.012700764085596086,
+    "bitcoinBarcelonaValue": 6631,
+    "bitcoinStatusValue": 50
+}, {
+    "country": "Thailand",
+    "dhtValue": 0.009843916815835546,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 50
+}, {
+    "country": "EU",
+    "dhtValue": 0.008271731968242177,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 252
+}, {
+    "country": "Poland",
+    "dhtValue": 0.007988210706884654,
+    "bitcoinBarcelonaValue": 19242,
+    "bitcoinStatusValue": 335
+}, {
+    "country": "Greece",
+    "dhtValue": 0.007304374582935137,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 39
+}, {
+    "country": "Kazakhstan",
+    "dhtValue": 0.007271349026122583,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 15
+}, {
+    "country": "Turkey",
+    "dhtValue": 0.004978149272467842,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 14
+}, {
+    "country": "Netherlands",
+    "dhtValue": 0.003926682519443948,
+    "bitcoinBarcelonaValue": 16490,
+    "bitcoinStatusValue": 344
+}, {
+    "country": "Taiwan",
+    "dhtValue": 0.0038184364069263196,
+    "bitcoinBarcelonaValue": 16335,
+    "bitcoinStatusValue": 29
+}, {
+    "country": "Mexico",
+    "dhtValue": 0.003399709808903243,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 49
+}, {
+    "country": "Portugal",
+    "dhtValue": 0.0033373495825906757,
+    "bitcoinBarcelonaValue": 67
+}, {
+    "country": "Philippines",
+    "dhtValue": 0.002924917005990524,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 22
+}, {
+    "country": "Serbia",
+    "dhtValue": 0.002726583393780471,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 37
+}, {
+    "country": "Argentina",
+    "dhtValue": 0.0026197778834698843,
+    "bitcoinBarcelonaValue": 5863,
+    "bitcoinStatusValue": 102
+}, {
+    "country": "Chile",
+    "dhtValue": 0.0007688642537997074,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 35
+}, {
+    "country": "Belarus",
+    "dhtValue": 0.0004277428113962944,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 62
+}, {
+    "country": "Israel",
+    "dhtValue": 0.0004275407788422809,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 90
+}, {
+    "country": "Moldova",
+    "dhtValue": 0.00037349398944968074,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 14
+}, {
+    "country": "Lithuania",
+    "dhtValue": 0.0003577761850828324,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 29
+}, {
+    "country": "Norway",
+    "dhtValue": 0.0002862688884865917,
+    "bitcoinBarcelonaValue": 4036,
+    "bitcoinStatusValue": 110
+}, {
+    "country": "Latvia",
+    "dhtValue": 0.00014905863829879076,
+    "bitcoinBarcelonaValue": 0,
+    "bitcoinStatusValue": 27
+}, {
+    "country": "Belgium",
+    "dhtValue": 0.00005676617244150235,
+    "bitcoinBarcelonaValue": 5810,
+    "bitcoinStatusValue": 104
+}]

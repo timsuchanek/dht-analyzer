@@ -45,7 +45,7 @@ function calcAverageValues(information) {
   /*
     [{
       country: 'AS',
-      value: 123
+      dhtValue: 123
     }]
   */
   var n = information.length;
@@ -56,17 +56,17 @@ function calcAverageValues(information) {
         return avg.country == country[0];
       });
       if (exists) {
-        exists.value += country[1];
+        exists.dhtValue += country[1];
       } else {
         average.push({
           country: country[0],
-          value: country[1]
+          dhtValue: country[1]
         });
       }
     });
   });
   average.forEach(function(avg) {
-    avg.value /= n;
+    avg.dhtValue /= n;
   });
   return average;
 }
@@ -95,4 +95,9 @@ average.forEach(function(avg) {
     avg.country = country.name;
   }
 });
+average = average.sort(function(a,b) {
+  return b.dhtValue - a.dhtValue;
+});
+var averageString = JSON.stringify(average);
+fs.writeFileSync('average-dht-peers.json', averageString);
 console.log(average);
