@@ -1,5 +1,13 @@
 var fs = require('fs');
 var _ = require('lodash');
+var countriesFile = fs.readFileSync('countries.json');
+var countries;
+
+try {
+  countries = JSON.parse(countriesFile);
+} catch (e) {
+  countries = null;
+}
 
 function processData(lines) {
   var commentRegex = /#+(.*)/;
@@ -63,6 +71,16 @@ function calcAverageValues(information) {
   return average;
 }
 
+function getCountryForCode(code) {
+  var country = null;
+  if (countries) {
+    country = _.find(countries, function(country) {
+      return country.cca2 == code;
+    });
+  }
+  return country;
+}
+
 var lines = fs.readFileSync('CountryTrendAnalyzer.txt')
 .toString()
 .split('\n');
@@ -70,5 +88,11 @@ var lines = fs.readFileSync('CountryTrendAnalyzer.txt')
 var information = processData(lines);
 
 var average = calcAverageValues(information);
-
+average.forEach(function(avg) {
+  var country = getCountryForCode(avg.country);
+  if (country) {
+    // avg.code = avg.country;
+    avg.country = country.name;
+  }
+});
 console.log(average);
