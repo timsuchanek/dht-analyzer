@@ -19,3 +19,9 @@ the Karlsruher Institut für Technologie (KIT).
     $ npm install
     $ node index.js
 ```
+
+## Result
+The found pearson correlations are:
+1. 0.7373965598258574 (Barcelona paper)
+2. 0.6747438803309105 (http://bitcoinstatus.rowit.co.uk/)
+
