@@ -66,7 +66,7 @@ function calcAverageValues(information) {
     });
   });
   average.forEach(function(avg) {
-    avg.dhtValue /= n;
+    avg.dhtValue = Math.round(avg.dhtValue / n);
   });
   return average;
 }
@@ -126,57 +126,57 @@ function getPearsonsCorrelation(x, y) {
   return answer;
 }
 
-// var lines = fs.readFileSync('CountryTrendAnalyzer.txt')
-//   .toString()
-//   .split('\n');
+var lines = fs.readFileSync('CountryPeerNumberTrendAnalyzer.txt')
+  .toString()
+  .split('\n');
 
-// var information = processData(lines);
+var information = processData(lines);
 
-// var average = calcAverageValues(information);
-// average.forEach(function(avg) {
-//   var country = getCountryForCode(avg.country);
-//   if (country) {
-//     // avg.code = avg.country;
-//     avg.country = country.name;
-//   }
-// });
-// average = average.sort(function(a, b) {
-//   return b.dhtValue - a.dhtValue;
-// });
-// var averageString = JSON.stringify(average);
-// fs.writeFileSync('average-dht-peers.json', averageString);
-// console.log(average);
+var average = calcAverageValues(information);
+average.forEach(function(avg) {
+  var country = getCountryForCode(avg.country);
+  if (country) {
+    // avg.code = avg.country;
+    avg.country = country.name;
+  }
+});
+average = average.sort(function(a, b) {
+  return b.dhtValue - a.dhtValue;
+});
+var averageString = JSON.stringify(average);
+fs.writeFileSync('average-dht-peers.json', averageString);
+console.log(average);
 
-var editedData = fs.readFileSync('average-dht-peers-edited.json');
-try {
-  editedData = JSON.parse(editedData);
-} catch (e) {
-  editedData = null;
-}
+// var editedData = fs.readFileSync('average-dht-peers-edited.json');
+// try {
+//   editedData = JSON.parse(editedData);
+// } catch (e) {
+//   editedData = null;
+// }
 
-if (editedData) {
-  var dhtValues = []
-    , barcelonaValues = []
-    , barcelona1stDayValues = []
-    , bitcoinStatusValues = [];
+// if (editedData) {
+//   var dhtValues = []
+//     , barcelonaValues = []
+//     , barcelona1stDayValues = []
+//     , bitcoinStatusValues = [];
 
-  editedData.forEach(function(date) {
-    dhtValues.push(date.dhtValue);
-    barcelonaValues.push(date.bitcoinBarcelonaValue);
-    barcelona1stDayValues.push(date.bitcoinBarcelona1stDayValue);
-    bitcoinStatusValues.push(date.bitcoinStatusValue);
-  });
+//   editedData.forEach(function(date) {
+//     dhtValues.push(date.dhtValue);
+//     barcelonaValues.push(date.bitcoinBarcelonaValue);
+//     barcelona1stDayValues.push(date.bitcoinBarcelona1stDayValue);
+//     bitcoinStatusValues.push(date.bitcoinStatusValue);
+//   });
 
-  var barcelonaCorrelation = getPearsonsCorrelation(dhtValues, barcelonaValues);
-  var barcelona1stDayCorrelation = getPearsonsCorrelation(dhtValues, barcelona1stDayValues);
-  var bitcoinStatusCorrelation = getPearsonsCorrelation(dhtValues, bitcoinStatusValues);
+//   var barcelonaCorrelation = getPearsonsCorrelation(dhtValues, barcelonaValues);
+//   var barcelona1stDayCorrelation = getPearsonsCorrelation(dhtValues, barcelona1stDayValues);
+//   var bitcoinStatusCorrelation = getPearsonsCorrelation(dhtValues, bitcoinStatusValues);
 
-  var firstDayBitcoinStatusCorrlation = getPearsonsCorrelation(barcelona1stDayValues, bitcoinStatusValues);
-  var bitcoinStatusCorrlation = getPearsonsCorrelation(barcelonaValues, bitcoinStatusValues);
+//   var firstDayBitcoinStatusCorrlation = getPearsonsCorrelation(barcelona1stDayValues, bitcoinStatusValues);
+//   var bitcoinStatusCorrlation = getPearsonsCorrelation(barcelonaValues, bitcoinStatusValues);
 
-  console.log('Barcelona 1st day correlation: ', barcelona1stDayCorrelation);
-  console.log('Barcelona 37 day correlation: ', barcelonaCorrelation);
-  console.log('Bitcoin Status correlation: ', bitcoinStatusCorrelation);
-  console.log('1st day and bitcoin status correlation', firstDayBitcoinStatusCorrlation);
-  console.log('37 days and bitcoin status correlation', bitcoinStatusCorrlation);
-}
+//   console.log('Barcelona 1st day correlation: ', barcelona1stDayCorrelation);
+//   console.log('Barcelona 37 day correlation: ', barcelonaCorrelation);
+//   console.log('Bitcoin Status correlation: ', bitcoinStatusCorrelation);
+//   console.log('1st day and bitcoin status correlation', firstDayBitcoinStatusCorrlation);
+//   console.log('37 days and bitcoin status correlation', bitcoinStatusCorrlation);
+// }
