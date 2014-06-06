@@ -171,7 +171,12 @@ if (editedData) {
   var barcelona1stDayCorrelation = getPearsonsCorrelation(dhtValues, barcelona1stDayValues);
   var bitcoinStatusCorrelation = getPearsonsCorrelation(dhtValues, bitcoinStatusValues);
 
+  var firstDayBitcoinStatusCorrlation = getPearsonsCorrelation(barcelona1stDayValues, bitcoinStatusValues);
+  var bitcoinStatusCorrlation = getPearsonsCorrelation(barcelonaValues, bitcoinStatusValues);
+
   console.log('Barcelona 1st day correlation: ', barcelona1stDayCorrelation);
   console.log('Barcelona 37 day correlation: ', barcelonaCorrelation);
-  console.log('Bitcoin correlation: ', bitcoinStatusCorrelation);
+  console.log('Bitcoin Status correlation: ', bitcoinStatusCorrelation);
+  console.log('1st day and bitcoin status correlation', firstDayBitcoinStatusCorrlation);
+  console.log('37 days and bitcoin status correlation', bitcoinStatusCorrlation);
 }
