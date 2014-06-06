@@ -23,6 +23,13 @@ the Karlsruher Institut für Technologie (KIT).
 ## Result
 The found pearson correlations are:
 
-    1.  0.7373965598258574 (Barcelona paper)
-    2.  0.6747438803309105 (http://bitcoinstatus.rowit.co.uk/)
+    Barcelona 1st day correlation:  0.7572424296726681
+    Barcelona 37 day correlation:  0.7382909069513078
+    Bitcoin Status correlation:  0.675059274785707
 
+    Absolute Barcelona 1st day correlation:  0.7241837802263172
+    Absolute Barcelona 37 day correlation:  0.5487823711117426
+    Absolute Bitcoin Status correlation:  0.8580847392666425
+
+    1st day and bitcoin status correlation 0.8390487977813774
+    37 days and bitcoin status correlation 0.6578426189922111
