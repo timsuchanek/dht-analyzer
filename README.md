@@ -22,6 +22,7 @@ the Karlsruher Institut für Technologie (KIT).
 
 ## Result
 The found pearson correlations are:
-1. 0.7373965598258574 (Barcelona paper)
-2. 0.6747438803309105 (http://bitcoinstatus.rowit.co.uk/)
+
+    1.  0.7373965598258574 (Barcelona paper)
+    2.  0.6747438803309105 (http://bitcoinstatus.rowit.co.uk/)
 
