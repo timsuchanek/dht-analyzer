@@ -157,16 +157,21 @@ try {
 if (editedData) {
   var dhtValues = []
     , barcelonaValues = []
+    , barcelona1stDayValues = []
     , bitcoinStatusValues = [];
+
   editedData.forEach(function(date) {
     dhtValues.push(date.dhtValue);
     barcelonaValues.push(date.bitcoinBarcelonaValue);
+    barcelona1stDayValues.push(date.bitcoinBarcelona1stDayValue);
     bitcoinStatusValues.push(date.bitcoinStatusValue);
   });
 
   var barcelonaCorrelation = getPearsonsCorrelation(dhtValues, barcelonaValues);
+  var barcelona1stDayCorrelation = getPearsonsCorrelation(dhtValues, barcelona1stDayValues);
   var bitcoinStatusCorrelation = getPearsonsCorrelation(dhtValues, bitcoinStatusValues);
 
-  console.log('Barca correlation: ', barcelonaCorrelation);
+  console.log('Barcelona 1st day correlation: ', barcelona1stDayCorrelation);
+  console.log('Barcelona 37 day correlation: ', barcelonaCorrelation);
   console.log('Bitcoin correlation: ', bitcoinStatusCorrelation);
 }
