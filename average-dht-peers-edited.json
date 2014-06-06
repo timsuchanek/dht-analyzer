@@ -1,234 +1,273 @@
 [{
     "country": "Russia",
     "dhtValue": 0.1257970209668987,
+    "dhtAbsoluteValue": 39730,
     "bitcoinBarcelonaValue": 66705,
     "bitcoinBarcelona1stDayValue": 6848,
     "bitcoinStatusValue": 964
 }, {
     "country": "United States",
     "dhtValue": 0.11080905143554443,
+    "dhtAbsoluteValue": 466370,
     "bitcoinBarcelonaValue": 145495,
     "bitcoinBarcelona1stDayValue": 24621,
     "bitcoinStatusValue": 6540
 }, {
     "country": "China",
     "dhtValue": 0.05638393867052427,
+    "dhtAbsoluteValue": 15670,
     "bitcoinBarcelonaValue": 172662,
     "bitcoinBarcelona1stDayValue": 16700,
     "bitcoinStatusValue": 331
 }, {
     "country": "France",
     "dhtValue": 0.04439885898008596,
+    "dhtAbsoluteValue": 193195,
     "bitcoinBarcelonaValue": 17249,
     "bitcoinBarcelona1stDayValue": 2752,
     "bitcoinStatusValue": 263
 }, {
     "country": "United Kingdom",
     "dhtValue": 0.039054282936880555,
+    "dhtAbsoluteValue": 167437,
     "bitcoinBarcelonaValue": 43369,
     "bitcoinBarcelona1stDayValue": 6849,
     "bitcoinStatusValue": 828
 }, {
     "country": "Ukraine",
     "dhtValue": 0.03905368303235273,
+    "dhtAbsoluteValue": 174399,
     "bitcoinBarcelonaValue": 13606,
     "bitcoinBarcelona1stDayValue": 1688,
     "bitcoinStatusValue": 322
 }, {
     "country": "Canada",
     "dhtValue": 0.03440776211504844,
+    "dhtAbsoluteValue": 8446,
     "bitcoinBarcelonaValue": 23308,
     "bitcoinBarcelona1stDayValue": 4664,
     "bitcoinStatusValue": 863
 }, {
     "country": "India",
     "dhtValue": 0.029030512575586646,
+    "dhtAbsoluteValue": 9128,
     "bitcoinBarcelonaValue": 9730,
     "bitcoinBarcelona1stDayValue": 502,
     "bitcoinStatusValue": 42
 }, {
     "country": "South Korea",
     "dhtValue": 0.02737799234573705,
+    "dhtAbsoluteValue": 7220,
     "bitcoinBarcelonaValue": 3698,
     "bitcoinBarcelona1stDayValue": 369,
     "bitcoinStatusValue": 24
 }, {
     "country": "Brazil",
     "dhtValue": 0.026812948052923946,
+    "dhtAbsoluteValue": 6213,
     "bitcoinBarcelonaValue": 16452,
     "bitcoinBarcelona1stDayValue": 1476,
     "bitcoinStatusValue": 147
 }, {
     "country": "Australia",
     "dhtValue": 0.025364353652996722,
+    "dhtAbsoluteValue": 202,
     "bitcoinBarcelonaValue": 15239,
     "bitcoinBarcelona1stDayValue": 2364,
     "bitcoinStatusValue": 529
 }, {
     "country": "Sweden",
     "dhtValue": 0.01797273957464162,
+    "dhtAbsoluteValue": 0,
     "bitcoinBarcelonaValue": 7958,
     "bitcoinBarcelona1stDayValue": 1366,
     "bitcoinStatusValue": 271
 }, {
     "country": "Spain",
     "dhtValue": 0.01755602092290712,
+    "dhtAbsoluteValue": 4652,
     "bitcoinBarcelonaValue": 14303,
     "bitcoinBarcelona1stDayValue": 1726,
     "bitcoinStatusValue": 161
 }, {
     "country": "Bulgaria",
     "dhtValue": 0.016466877319621466,
+    "dhtAbsoluteValue": 4526,
     "bitcoinBarcelonaValue": 2949,
     "bitcoinBarcelona1stDayValue": 461,
     "bitcoinStatusValue": 87
 }, {
     "country": "Romania",
     "dhtValue": 0.0164313390616872,
+    "dhtAbsoluteValue": 5018,
     "bitcoinBarcelonaValue": 4630,
     "bitcoinBarcelona1stDayValue": 468,
     "bitcoinStatusValue": 92
 }, {
     "country": "Italy",
     "dhtValue": 0.016222713454536644,
+    "dhtAbsoluteValue": 4437,
     "bitcoinBarcelonaValue": 17098,
     "bitcoinBarcelona1stDayValue": 1572,
     "bitcoinStatusValue": 179
 }, {
     "country": "Hungary",
     "dhtValue": 0.01377269319046022,
+    "dhtAbsoluteValue": 4336,
     "bitcoinBarcelonaValue": 4057,
     "bitcoinBarcelona1stDayValue": 502,
     "bitcoinStatusValue": 36
 }, {
     "country": "Japan",
     "dhtValue": 0.012700764085596086,
+    "dhtAbsoluteValue": 3765,
     "bitcoinBarcelonaValue": 6631,
     "bitcoinBarcelona1stDayValue": 843,
     "bitcoinStatusValue": 50
 }, {
     "country": "Thailand",
     "dhtValue": 0.009843916815835546,
+    "dhtAbsoluteValue": 3660,
     "bitcoinBarcelonaValue": 3470,
     "bitcoinBarcelona1stDayValue": 234,
     "bitcoinStatusValue": 50
 }, {
     "country": "EU",
     "dhtValue": 0.008271731968242177,
+    "dhtAbsoluteValue": 48500,
     "bitcoinBarcelonaValue": 232,
     "bitcoinBarcelona1stDayValue": 28,
     "bitcoinStatusValue": 252
 }, {
     "country": "Poland",
     "dhtValue": 0.007988210706884654,
+    "dhtAbsoluteValue": 48256,
     "bitcoinBarcelonaValue": 19242,
     "bitcoinBarcelona1stDayValue": 0,
     "bitcoinStatusValue": 335
 }, {
     "country": "Greece",
     "dhtValue": 0.007304374582935137,
+    "dhtAbsoluteValue": 46766,
     "bitcoinBarcelonaValue": 4538,
     "bitcoinBarcelona1stDayValue": 2265,
     "bitcoinStatusValue": 39
 }, {
     "country": "Kazakhstan",
     "dhtValue": 0.007271349026122583,
+    "dhtAbsoluteValue": 3142,
     "bitcoinBarcelonaValue": 2778,
     "bitcoinBarcelona1stDayValue": 154,
     "bitcoinStatusValue": 15
 }, {
     "country": "Turkey",
     "dhtValue": 0.004978149272467842,
+    "dhtAbsoluteValue": 2541,
     "bitcoinBarcelonaValue": 4286,
     "bitcoinBarcelona1stDayValue": 459,
     "bitcoinStatusValue": 14
 }, {
     "country": "Netherlands",
     "dhtValue": 0.003926682519443948,
+    "dhtAbsoluteValue": 40395,
     "bitcoinBarcelonaValue": 16490,
     "bitcoinBarcelona1stDayValue": 4070,
     "bitcoinStatusValue": 344
 }, {
     "country": "Taiwan",
     "dhtValue": 0.0038184364069263196,
+    "dhtAbsoluteValue": 40526,
     "bitcoinBarcelonaValue": 16335,
     "bitcoinBarcelona1stDayValue": 1375,
     "bitcoinStatusValue": 29
 }, {
     "country": "Mexico",
     "dhtValue": 0.003399709808903243,
+    "dhtAbsoluteValue": 27520,
     "bitcoinBarcelonaValue": 4483,
     "bitcoinBarcelona1stDayValue": 422,
     "bitcoinStatusValue": 49
 }, {
     "country": "Portugal",
     "dhtValue": 0.0033373495825906757,
+    "dhtAbsoluteValue": 1816,
     "bitcoinBarcelonaValue": 67,
     "bitcoinBarcelona1stDayValue": 449,
     "bitcoinStatusValue": 67
 }, {
     "country": "Philippines",
     "dhtValue": 0.002924917005990524,
+    "dhtAbsoluteValue": 31533,
     "bitcoinBarcelonaValue": 1643,
     "bitcoinBarcelona1stDayValue": 141,
     "bitcoinStatusValue": 22
 }, {
     "country": "Serbia",
     "dhtValue": 0.002726583393780471,
+    "dhtAbsoluteValue": 2079,
     "bitcoinBarcelonaValue": 1999,
     "bitcoinBarcelona1stDayValue": 184,
     "bitcoinStatusValue": 37
 }, {
     "country": "Argentina",
     "dhtValue": 0.0026197778834698843,
+    "dhtAbsoluteValue": 1645,
     "bitcoinBarcelonaValue": 5863,
     "bitcoinBarcelona1stDayValue": 663,
     "bitcoinStatusValue": 102
 }, {
     "country": "Chile",
     "dhtValue": 0.0007688642537997074,
+    "dhtAbsoluteValue": 1041,
     "bitcoinBarcelonaValue": 2096,
     "bitcoinBarcelona1stDayValue": 232,
     "bitcoinStatusValue": 35
 }, {
     "country": "Belarus",
     "dhtValue": 0.0004277428113962944,
+    "dhtAbsoluteValue": 2230,
     "bitcoinBarcelonaValue": 5619,
     "bitcoinBarcelona1stDayValue": 486,
     "bitcoinStatusValue": 62
 }, {
     "country": "Israel",
     "dhtValue": 0.0004275407788422809,
+    "dhtAbsoluteValue": 2269,
     "bitcoinBarcelonaValue": 4301,
     "bitcoinBarcelona1stDayValue": 540,
     "bitcoinStatusValue": 90
 }, {
     "country": "Moldova",
     "dhtValue": 0.00037349398944968074,
+    "dhtAbsoluteValue": 23449,
     "bitcoinBarcelonaValue": 657,
     "bitcoinBarcelona1stDayValue": 65,
     "bitcoinStatusValue": 14
 }, {
     "country": "Lithuania",
     "dhtValue": 0.0003577761850828324,
+    "dhtAbsoluteValue": 23856,
     "bitcoinBarcelonaValue": 2281,
     "bitcoinBarcelona1stDayValue": 390,
     "bitcoinStatusValue": 29
 }, {
     "country": "Norway",
     "dhtValue": 0.0002862688884865917,
+    "dhtAbsoluteValue": 28670,
     "bitcoinBarcelonaValue": 4036,
     "bitcoinBarcelona1stDayValue": 1016,
     "bitcoinStatusValue": 110
 }, {
     "country": "Latvia",
     "dhtValue": 0.00014905863829879076,
+    "dhtAbsoluteValue": 18507,
     "bitcoinBarcelonaValue": 958,
     "bitcoinBarcelona1stDayValue": 149,
     "bitcoinStatusValue": 27
 }, {
     "country": "Belgium",
     "dhtValue": 0.00005676617244150235,
+    "dhtAbsoluteValue": 1251,
     "bitcoinBarcelonaValue": 5810,
     "bitcoinBarcelona1stDayValue": 726,
     "bitcoinStatusValue": 104
